@@ -16,8 +16,7 @@ import java.util.List;
 public class Comment {
     @Id
     private int id;
+    private long postId;
     private String content;
     private LocalDateTime created;
-
-
 }
